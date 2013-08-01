@@ -7,11 +7,14 @@ Just type *python cat.py* and then look through generate images (cat_000.png ...
 
 The code is slightly modified from [this](http://www.janeriksolem.net/2012/06/arnolds-cat-map.html)
 
+Use *convert* to make an animated GIF file:
+
+    convert -delay 20 -loop 0 cat_???.png  cat.gif
 
 Reference
 ---------
-* [solem's vision blog](http://www.janeriksolem.net/2012/06/arnolds-cat-map.html)
-* [Arnold's Cat Map](http://www.jasondavies.com/catmap/)
+* [Python code from solem's vision blog](http://www.janeriksolem.net/2012/06/arnolds-cat-map.html)
+* [Online Arnold's Cat Map](http://www.jasondavies.com/catmap/)
 * [Recurrence] (http://www.mpipks-dresden.mpg.de/mpi-doc/kantzgruppe/wiki/projects/Recurrence.html#References)
-* [Arnold's cat map] (http://en.wikipedia.org/wiki/Arnold%27s_cat_map#cite_note-Arnold-1)
+* [Wikipedia Arnold's cat map] (http://en.wikipedia.org/wiki/Arnold%27s_cat_map#cite_note-Arnold-1)
 
