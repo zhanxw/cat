@@ -11,6 +11,11 @@ Use *convert* to make an animated GIF file:
 
     convert -delay 20 -loop 0 cat_???.png  cat.gif
 
+Demo animate (use 121 frames)
+----------------------------
+
+![Animated Cat](cat.gif)
+
 Reference
 ---------
 * [Python code from solem's vision blog](http://www.janeriksolem.net/2012/06/arnolds-cat-map.html)
