@@ -11,6 +11,14 @@ Use *convert* to make an animated GIF file:
 
     convert -delay 20 -loop 0 cat_???.png  cat.gif
 
+Requirements
+------------
+```bash
+pip install Image numpy
+```
+
+Or install PIL or Pillow instead of Image... (Image should install Pillow).
+
 Demo animate (use 121 frames)
 ----------------------------
 
